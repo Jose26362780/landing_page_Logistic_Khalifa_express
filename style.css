@@ -522,6 +522,11 @@ footer .social a:hover {
   transform: translateY(-9px);
 }
 
+footer a {
+  text-decoration: none;
+  color: hsl(0 0% 98%);
+}
+
 /* Back to top*/
 
 .back-to-top {

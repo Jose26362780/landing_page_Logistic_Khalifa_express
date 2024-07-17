@@ -48,6 +48,7 @@ img {
 /*=============== BASE ===================*/
 html {
   scroll-behavior: smooth; /* Para rolagem suave */
+  
 }
 
 body {
@@ -74,10 +75,12 @@ body {
   font: 500 1rem var(--body-font);
 
   transition: background 0.3s;
+  transition: all 300ms;
 }
 
 .button:hover {
   background: var(--base-color-alt);
+  transform: scale(1.08);
 }
 
 .divider-1 {
@@ -291,29 +294,28 @@ nav.show div.icon-close {
 #home .image {
   position: relative;
 }
-
+/*
 #home .image::before {
   content: "";
   height: 100%;
   width: 100%;
   background: var(--base-color-second);
   position: absolute;
-  top: -15.8%;
-  left: 16.7%;
+  top: -1.8%;
+  left: 1.7%;
   z-index: 0;
 }
-
+*/
 #home .image img {
+  display: flex;
   position: relative;
-  padding-top: 4.5rem;
-  right: 2.93rem;
+  align-items: center;
+  border-radius: 1.25rem;
+  
 
 }
 
-#home .image img,
-#home .image::before {
-  border-radius: 0.25rem;
-}
+
 
 #home .text {
   margin-left: 1.5rem;

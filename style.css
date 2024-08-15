@@ -370,6 +370,18 @@ nav.show div.icon-close {
   margin-right: 1.5rem;
 }
 
+.text span {
+  color: var(--text-color);
+  font-weight:bold;
+  
+}
+
+.container a > img {
+    width: 30px;
+    height: 25px;
+    margin-top:1px;
+}
+
 /*=========== SERVICES  ======= */
 
 .cards.grid {
